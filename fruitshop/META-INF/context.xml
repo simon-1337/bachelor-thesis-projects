@@ -1,0 +1,6 @@
+<Context>
+  <Resource name="jdbc/sqlite" auth="Container"
+            type="javax.sql.DataSource" driverClassName="org.sqlite.JDBC"
+            url="jdbc:sqlite:C://sqlite/shop.db" maxTotal="100" maxIdle="10"
+            maxWaitMillis="-1" removeAbandonedOnBorrow="true" removeAbandonedTimeout="60" />
+</Context>

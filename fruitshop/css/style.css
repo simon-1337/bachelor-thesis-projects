@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+header {
+	background-color: #F1F1F1;
+    padding: 12px;
+    box-shadow: -2px 0px 6px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #F9F9F9;
+}
+
+h2 {
+	margin-block-start: 0;
+}
+
+.userheader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.userheader-child {
+	display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.user_container {
+	display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+	cursor: pointer;
+	padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 14px;
+    width: fit-content;
+    border: none
+}
+
+.submit-btn:hover {
+	background-color: rgb(199, 199, 199);
+}
+
+.warning {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+.link-btn {
+	padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 14px;
+    width: fit-content;
+    margin-right: 10px;
+    height: fit-content;
+}
+
+.link-btn:hover {
+	background-color: grey;
+}
+
+.products-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+.product-container {
+	background-color: #F1F1F1;
+	padding: 42px;
+	border-radius: 8px;
+}
+
+.product-container img {
+	object-fit: cover;
+}
+
+.login-form-headline {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.shopping-cart-ctn {
+	display: flex;
+    flex-direction: column;
+}
+
+.cart-product-ctn img {
+	height: 200px;
+	width: 300px;
+	object-fit: cover;
+}
+
+.cart-product-ctn {
+	padding: 20px 0 20px 80px;
+	display: flex;
+    flex-direction: column;
+}
+
+.credentials-div {
+	padding: 20px;
+}
+
+.sum-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0;
+	border-top: solid 3px grey;
+}
+
+.sum-container h4 {
+	margin-block-start: 0;
+}
+
+.margin-left {
+	margin-left: 10px;
+}
+
+.newsletter-ctn {
+	padding: 20px;
+}
+
+@media (max-width: 700px) {
+	.cart-product-ctn {
+		padding: 20px;
+		display: flex;
+    	flex-direction: column;
+	}
+}
+
+/*
+    ------------------------ Apache Version 2.0 license -------------------------
+       Copyright 2023 Simon Besenbäck
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+    -----------------------------------------------------------------------------
+*/
