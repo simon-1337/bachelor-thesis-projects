@@ -10,7 +10,8 @@ Necessary Software:
 4.	script-jsr223.tld -> https://sourceforge.net/projects/bsf4oorexx/files/Sandbox/rgf/taglibs/ga/ (already in the war-archive)
 5.	jakarta.ScriptTagsLibs.jar -> https://sourceforge.net/projects/bsf4oorexx/files/Sandbox/rgf/taglibs/ga/
 6.	nashorn-core-15.4.jar -> https://search.maven.org/artifact/org.openjdk.nashorn/nashorn-core/15.4/jar
-7.	asm-7.3.1.jar, asm-commons-7.3.1.jar, asm-tree-7.3.1.jar and asm-util-7.3.1.jar -> https://repository.ow2.org/nexus/#welcome 
+7.	asm-7.3.1.jar, asm-commons-7.3.1.jar, 
+   asm-tree-7.3.1.jar and asm-util-7.3.1.jar -> https://repository.ow2.org/nexus/#welcome 
 8.	SQLite -> https://www.sqlite.org/
 9.	SQLite JDBC Driver -> https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
 10.	Bcrypt -> https://mvnrepository.com/artifact/org.mindrot/jbcrypt/0.4
